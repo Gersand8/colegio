@@ -1,0 +1,106 @@
+
+
+
+
+
+#content{
+    background-color: rgba(41, 21, 3, 0.801);
+ 
+
+}
+
+
+
+
+#png{
+	 width: 100;
+    height: 100;
+
+
+}
+
+
+.body {
+	color: olive;
+	text-align: center;
+	font-size: 40px;}
+
+	
+	
+.icono {
+	font-size: 55px;
+}
+
+  
+.p1 {
+	font-family: Comic Sans MS;
+	font-size: 25px;
+	color: #620000
+}
+
+.p2 {
+    color: powderblue;
+	font-family: Open Sans;
+	font-size: 25px;	
+}
+.p3 {
+	font-family: Franklin Gothic;
+	font-size: 25px;
+	color: #745d5d 
+}
+h1 
+{
+	font-family:Comic Sans MS;
+	font-size: 40px;
+	color: #a3a3a3;
+}
+
+h2
+{
+	font-family: Algerian;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+h4
+{
+	font-family: verdana;
+	font-size: 20px;
+	color: #000000;
+	float: center;
+}
+h5
+{
+	font-family:Comic Sans MS;
+	font-size: 40px;
+	color: #180d0d;
+}
+h6 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: aqua;
+	}
+
+
+
+div2
+{
+	font-family: verdana;
+	font-size: 20px;
+	color: #EAEAEA;
+	
+}
+
+
+
+
+
+
+
+
+
+label{
+    color:rgba(97, 7, 85, 0.788);
+
+}
+

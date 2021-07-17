@@ -1,0 +1,131 @@
+
+::selection {
+  background: #2D2F36;
+}
+::-webkit-selection {
+  background: #2D2F36;
+}
+::-moz-selection {
+  background: #2D2F36;
+}
+h2{
+  color: rgb(116, 116, 117);
+  text-align: center;
+  font-family:Century gothic;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 66, 33);
+  font-size: 14px;
+}
+body {
+  background: rgb(88, 131, 151);
+  font-family: Century gothic;
+  margin: 0;
+  padding: 20px;
+}
+/* .page {
+  background: darkslateblue;
+  display: flex;
+  flex-direction: column;
+  height: calc(110% - 40px);
+  position: absolute;
+  place-content: center;
+  width: calc(100% - 40px);
+} */
+.caja{
+  border-bottom: 2px solid #2064c9;
+  text-align: center;
+  width: 75%;
+  font-size: 15px;
+}
+.caja:hover{
+  transition: 0.4s;
+  border-bottom: 2px solid #99b9ff;
+}
+.aceptar{
+  /*border: 2px solid rgb(33, 92, 255);*/
+  border-radius: 20px;
+  padding: 5px;
+  height: auto;
+  margin: auto;
+  width: 75%;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  background: rgb(16, 85, 141);
+}
+.aceptar:hover{
+  transition: 0.4s;
+  color: white;
+  background: rgb(16, 85, 141);
+ 
+}
+.container {
+  display: flex;
+  height: 320px;
+  margin: 0 auto;
+  width: 640px;
+}
+.left {
+  background: rgb(49, 49, 49);
+  height: calc(100% - 40px);
+  top: 20px;
+  position: relative;
+  width: 50%;
+}
+.login {
+  font-weight: 900;
+  margin: 40px 40px 40px;
+}
+.eula {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 40px;
+  text-align: center;
+}
+.right {
+  background: white;
+  box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.40);
+  color: black;
+  width:  50%;
+  height: 110%;
+  margin-left: 25%;
+  margin-top: 15%;
+  text-align: center;
+}
+svg {
+  position: absolute;
+  width: 320px;
+}
+path {
+  fill: none;
+  stroke: url(#linearGradient);;
+  stroke-width: 4;
+  stroke-dasharray: 240 1386;
+}
+.frmlogin {
+  margin: 10px;
+  /* text-align: center; */
+}
+label {
+  color:  black;
+  display: block;
+  font-size: 14px;
+  height: 10px;
+}
+input {
+  background: transparent;
+  border: 0;
+  color: black;
+  font-size: 18px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+}
+input::-moz-focus-inner { 
+  border: 0; 
+}
+
